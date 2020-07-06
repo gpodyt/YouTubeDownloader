@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activityTab" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="AutoUpdateFormText" xml:space="preserve">
+    <value>Auto-Update</value>
+  </data>
+  <data name="best" xml:space="preserve">
+    <value>Best Available</value>
+  </data>
+  <data name="btnDownload" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="btnPaste" xml:space="preserve">
+    <value>Paste URL</value>
+  </data>
+  <data name="btnVideoOnly" xml:space="preserve">
+    <value>The video</value>
+  </data>
+  <data name="btnWholePlaylist" xml:space="preserve">
+    <value>The whole playlist</value>
+  </data>
+  <data name="cb60fps" xml:space="preserve">
+    <value>Force 60p</value>
+  </data>
+  <data name="cmDeleteActivity" xml:space="preserve">
+    <value>Delete from activity tab</value>
+  </data>
+  <data name="cmDeleteFile" xml:space="preserve">
+    <value>Delete file from your computer</value>
+  </data>
+  <data name="cmOpenFolder" xml:space="preserve">
+    <value>Open containing folder</value>
+  </data>
+  <data name="cmPause" xml:space="preserve">
+    <value>Pause download</value>
+  </data>
+  <data name="cmResume" xml:space="preserve">
+    <value>Resume download</value>
+  </data>
+  <data name="cmStart" xml:space="preserve">
+    <value>Start download</value>
+  </data>
+  <data name="cmStop" xml:space="preserve">
+    <value>Stop download</value>
+  </data>
+  <data name="deleteFromActivity" xml:space="preserve">
+    <value>Delete from activity tab</value>
+  </data>
+  <data name="deleteFromPC" xml:space="preserve">
+    <value>Delete file from your computer</value>
+  </data>
+  <data name="directoryDoesntExist" xml:space="preserve">
+    <value>The selected directory does not exist. Please check it before continuing.</value>
+  </data>
+  <data name="downloadTab" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="etaColumn" xml:space="preserve">
+    <value>ETA</value>
+  </data>
+  <data name="formatColumn" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="gbTrim" xml:space="preserve">
+    <value>Trim audio</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="LanguageSelection" xml:space="preserve">
+    <value>Choose a language</value>
+  </data>
+  <data name="lblAutoUpdating" xml:space="preserve">
+    <value>Auto updating..</value>
+  </data>
+  <data name="lblCannotChangeSetting" xml:space="preserve">
+    <value>Cannot change this setting while there are active downloads.</value>
+  </data>
+  <data name="lblDoNotClose" xml:space="preserve">
+    <value>Please do not close the program!</value>
+  </data>
+  <data name="lblDownloadQuality" xml:space="preserve">
+    <value>Download Quality</value>
+  </data>
+  <data name="lblDownloadsWarning1" xml:space="preserve">
+    <value>WARNING: Settings this number too high will significantly</value>
+  </data>
+  <data name="lblDownloadsWarning2" xml:space="preserve">
+    <value>affect your computer's performance!</value>
+  </data>
+  <data name="lblEndTime" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="lblEnterUrl" xml:space="preserve">
+    <value>Paste a YouTube video or playlist URL that you want to download:</value>
+  </data>
+  <data name="lblItWillCloseAuto" xml:space="preserve">
+    <value>This window will close automatically.</value>
+  </data>
+  <data name="lblRestartProgram" xml:space="preserve">
+    <value>Restart the program for changes to take effect.</value>
+  </data>
+  <data name="lblSaveTo" xml:space="preserve">
+    <value>Save To</value>
+  </data>
+  <data name="lblStartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="lblTrimInfo" xml:space="preserve">
+    <value>Leave the time at 00:00:00 if you want to download the whole song.</value>
+  </data>
+  <data name="MaxSimDownLabel" xml:space="preserve">
+    <value>Maximum number of simultaneous downloads:</value>
+  </data>
+  <data name="mp3" xml:space="preserve">
+    <value>mp3</value>
+  </data>
+  <data name="msgCouldntDeleteFile1" xml:space="preserve">
+    <value>The file "</value>
+  </data>
+  <data name="msgCouldntDeleteFile2" xml:space="preserve">
+    <value>" is in use and couldn't be deleted. Check your downloads folder for unfinished files.</value>
+  </data>
+  <data name="msgFilesNotDeleted1" xml:space="preserve">
+    <value>The video "</value>
+  </data>
+  <data name="msgFilesNotDeleted2" xml:space="preserve">
+    <value>" couldn't be deleted. Delete it manually from your downloads folder.</value>
+  </data>
+  <data name="msgVideoAlreadyInActivityTab1" xml:space="preserve">
+    <value>The video "</value>
+  </data>
+  <data name="msgVideoAlreadyInActivityTab2" xml:space="preserve">
+    <value>" you are trying to add already exists in the Activity Tab. Please remove it before downloading it again.</value>
+  </data>
+  <data name="openContaining" xml:space="preserve">
+    <value>Open containing folder</value>
+  </data>
+  <data name="p60" xml:space="preserve">
+    <value>Best Available (60fps)</value>
+  </data>
+  <data name="pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="pbStatus_cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="pbStatus_converting" xml:space="preserve">
+    <value>Converting</value>
+  </data>
+  <data name="pbStatus_done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="pbStatus_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="pbStatus_loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="pbStatus_muxing" xml:space="preserve">
+    <value>Muxing</value>
+  </data>
+  <data name="pbStatus_paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="playlist" xml:space="preserve">
+    <value>Playlist</value>
+  </data>
+  <data name="playlistAndVideoText" xml:space="preserve">
+    <value>A video you are trying to add also has a playlist in it's link. Did you mean to download the video or the whole playlist?
+
+Note: Your choice here will apply to all the remaining video/playlist links.</value>
+  </data>
+  <data name="playlistStatus" xml:space="preserve">
+    <value>Loading playlist</value>
+  </data>
+  <data name="PlaylistVideoForm" xml:space="preserve">
+    <value>Video with playlist link detected</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>Marko's YouTube Downloader v1.0</value>
+  </data>
+  <data name="progressColumn" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="sizeColumn" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="speedColumn" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="status0" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="status1" xml:space="preserve">
+    <value>Loading metadata</value>
+  </data>
+  <data name="status10" xml:space="preserve">
+    <value>Video has already been downloaded</value>
+  </data>
+  <data name="status2" xml:space="preserve">
+    <value>Downloading video</value>
+  </data>
+  <data name="status3" xml:space="preserve">
+    <value>Downloading audio</value>
+  </data>
+  <data name="status4" xml:space="preserve">
+    <value>Format error, downloading best quality</value>
+  </data>
+  <data name="status5" xml:space="preserve">
+    <value>Muxing</value>
+  </data>
+  <data name="status6" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="status7" xml:space="preserve">
+    <value>Converting to MP3</value>
+  </data>
+  <data name="status8" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="status9" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="statusColumn" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ttForce60fps" xml:space="preserve">
+    <value>Check this box if you want to make sure that
+your video downloads in 60p. (if available)</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="videoColumn" xml:space="preserve">
+    <value>Video</value>
+  </data>
+</root>

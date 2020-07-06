@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activityTab" xml:space="preserve">
+    <value>Активност</value>
+  </data>
+  <data name="audio" xml:space="preserve">
+    <value>Аудио</value>
+  </data>
+  <data name="AutoUpdateFormText" xml:space="preserve">
+    <value>Автоматска надградба</value>
+  </data>
+  <data name="best" xml:space="preserve">
+    <value>Најдобриот достапен</value>
+  </data>
+  <data name="btnDownload" xml:space="preserve">
+    <value>Симни</value>
+  </data>
+  <data name="btnPaste" xml:space="preserve">
+    <value>Залепи URL</value>
+  </data>
+  <data name="btnVideoOnly" xml:space="preserve">
+    <value>Видеото</value>
+  </data>
+  <data name="btnWholePlaylist" xml:space="preserve">
+    <value>Целата плејлиста</value>
+  </data>
+  <data name="cb60fps" xml:space="preserve">
+    <value>Форсирај 60p</value>
+  </data>
+  <data name="cmDeleteActivity" xml:space="preserve">
+    <value>Избриши од активност</value>
+  </data>
+  <data name="cmDeleteFile" xml:space="preserve">
+    <value>Избриши го фајлот од компјутер</value>
+  </data>
+  <data name="cmOpenFolder" xml:space="preserve">
+    <value>Отворете ја папката што го соддржи видеото</value>
+  </data>
+  <data name="cmPause" xml:space="preserve">
+    <value>Паузирај симнување</value>
+  </data>
+  <data name="cmResume" xml:space="preserve">
+    <value>Продолжи симнување</value>
+  </data>
+  <data name="cmStart" xml:space="preserve">
+    <value>Почни симнување</value>
+  </data>
+  <data name="cmStop" xml:space="preserve">
+    <value>Сопри симнување</value>
+  </data>
+  <data name="deleteFromActivity" xml:space="preserve">
+    <value>Избриши од активност</value>
+  </data>
+  <data name="deleteFromPC" xml:space="preserve">
+    <value>Избриши го фајлот од компјутер</value>
+  </data>
+  <data name="directoryDoesntExist" xml:space="preserve">
+    <value>Селектираниот директориум не постои. Ве молиме проверете го пред да симнете.</value>
+  </data>
+  <data name="downloadTab" xml:space="preserve">
+    <value>Симнување</value>
+  </data>
+  <data name="etaColumn" xml:space="preserve">
+    <value>Преостанато време</value>
+  </data>
+  <data name="formatColumn" xml:space="preserve">
+    <value>Формат</value>
+  </data>
+  <data name="gbTrim" xml:space="preserve">
+    <value>Скрати аудио</value>
+  </data>
+  <data name="LanguageLabel" xml:space="preserve">
+    <value>Јазик:</value>
+  </data>
+  <data name="LanguageSelection" xml:space="preserve">
+    <value>Одберете јазик</value>
+  </data>
+  <data name="lblAutoUpdating" xml:space="preserve">
+    <value>Автоматско надградување...</value>
+  </data>
+  <data name="lblCannotChangeSetting" xml:space="preserve">
+    <value>Не може да се смени ова поставување додека има активни симнувања.</value>
+  </data>
+  <data name="lblDoNotClose" xml:space="preserve">
+    <value>Ве молиме не ја затварајте програмата!</value>
+  </data>
+  <data name="lblDownloadQuality" xml:space="preserve">
+    <value>Квалитет</value>
+  </data>
+  <data name="lblDownloadsWarning1" xml:space="preserve">
+    <value>ВНИМАНИЕ: Поставувањето на оваа вредност превисоко</value>
+  </data>
+  <data name="lblDownloadsWarning2" xml:space="preserve">
+    <value>значително ќе ги наруши перформансите на вашиот компјутер!</value>
+  </data>
+  <data name="lblEndTime" xml:space="preserve">
+    <value>Крајно време</value>
+  </data>
+  <data name="lblEnterUrl" xml:space="preserve">
+    <value>Залепете линк од Јутјуб видео или плејлиста кои сакате да ги симнете:</value>
+  </data>
+  <data name="lblItWillCloseAuto" xml:space="preserve">
+    <value>Овој прозорец ќе се затвори автоматски.</value>
+  </data>
+  <data name="lblRestartProgram" xml:space="preserve">
+    <value>Рестартирајте ја програмата за поставувањата да имаат ефект.</value>
+  </data>
+  <data name="lblSaveTo" xml:space="preserve">
+    <value>Симнете во</value>
+  </data>
+  <data name="lblStartTime" xml:space="preserve">
+    <value>Почетно време</value>
+  </data>
+  <data name="lblTrimInfo" xml:space="preserve">
+    <value>Оставете го времето на 00:00:00 ако сакате да ја симнете целата песна.</value>
+  </data>
+  <data name="MaxSimDownLabel" xml:space="preserve">
+    <value>Максимален број на истовремени симнувања:</value>
+  </data>
+  <data name="mp3" xml:space="preserve">
+    <value>mp3</value>
+  </data>
+  <data name="msgCouldntDeleteFile1" xml:space="preserve">
+    <value>Фајлот "</value>
+  </data>
+  <data name="msgCouldntDeleteFile2" xml:space="preserve">
+    <value>" е во употреба и не можеше да биде избришан. Проверете ја вашата симнувачка папка за недовршени фајлови.</value>
+  </data>
+  <data name="msgFilesNotDeleted1" xml:space="preserve">
+    <value>Видеото "</value>
+  </data>
+  <data name="msgFilesNotDeleted2" xml:space="preserve">
+    <value>" не можеше да биде избришано. Избришете го мануелно од вашата симнувачка папка.</value>
+  </data>
+  <data name="msgVideoAlreadyInActivityTab1" xml:space="preserve">
+    <value>Видеото "</value>
+  </data>
+  <data name="msgVideoAlreadyInActivityTab2" xml:space="preserve">
+    <value>" кое пробувате да го додадете веќе постои во Активност Табот. Ве молиме, избришете го пред повторно да го симнете.</value>
+  </data>
+  <data name="openContaining" xml:space="preserve">
+    <value>Отворете ја папката што го соддржи видеото</value>
+  </data>
+  <data name="p60" xml:space="preserve">
+    <value>Најдобриот достапен (60fps)</value>
+  </data>
+  <data name="pause" xml:space="preserve">
+    <value>Паузирај</value>
+  </data>
+  <data name="pbStatus_cancelled" xml:space="preserve">
+    <value>Сопрено</value>
+  </data>
+  <data name="pbStatus_converting" xml:space="preserve">
+    <value>Конвертирање</value>
+  </data>
+  <data name="pbStatus_done" xml:space="preserve">
+    <value>Завршено</value>
+  </data>
+  <data name="pbStatus_error" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="pbStatus_loading" xml:space="preserve">
+    <value>Вчитување</value>
+  </data>
+  <data name="pbStatus_muxing" xml:space="preserve">
+    <value>Спојување</value>
+  </data>
+  <data name="pbStatus_paused" xml:space="preserve">
+    <value>Паузирано</value>
+  </data>
+  <data name="playlist" xml:space="preserve">
+    <value>Плејлиста</value>
+  </data>
+  <data name="playlistAndVideoText" xml:space="preserve">
+    <value>Видео кое пробувате да го додадете во неговиот линк содржи и плејлиста. Дали сакавте да го симнете видеото или целата плејлиста?
+
+Напомена: Вашиот избор ќе важи за сите останати вакви линкови.</value>
+  </data>
+  <data name="playlistStatus" xml:space="preserve">
+    <value>Се вчитува плејлистата</value>
+  </data>
+  <data name="PlaylistVideoForm" xml:space="preserve">
+    <value>Видео со линк од плејлиста беше детектирано</value>
+  </data>
+  <data name="ProgramTitle" xml:space="preserve">
+    <value>Јутјуб Давнлодерот на Марко v1.0</value>
+  </data>
+  <data name="progressColumn" xml:space="preserve">
+    <value>Прогрес</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Поставувања</value>
+  </data>
+  <data name="sizeColumn" xml:space="preserve">
+    <value>Големина</value>
+  </data>
+  <data name="speedColumn" xml:space="preserve">
+    <value>Брзина</value>
+  </data>
+  <data name="status0" xml:space="preserve">
+    <value>Завршено</value>
+  </data>
+  <data name="status1" xml:space="preserve">
+    <value>Вчитување податоци</value>
+  </data>
+  <data name="status10" xml:space="preserve">
+    <value>Видеото е веќе симнато</value>
+  </data>
+  <data name="status2" xml:space="preserve">
+    <value>Се симнува видео</value>
+  </data>
+  <data name="status3" xml:space="preserve">
+    <value>Се симнува аудио</value>
+  </data>
+  <data name="status4" xml:space="preserve">
+    <value>Грешка со форматот, се симнува најдобриот достапен</value>
+  </data>
+  <data name="status5" xml:space="preserve">
+    <value>Се спојува</value>
+  </data>
+  <data name="status6" xml:space="preserve">
+    <value>Грешка</value>
+  </data>
+  <data name="status7" xml:space="preserve">
+    <value>Се конвертира во MP3</value>
+  </data>
+  <data name="status8" xml:space="preserve">
+    <value>Сопрено</value>
+  </data>
+  <data name="status9" xml:space="preserve">
+    <value>Паузирано</value>
+  </data>
+  <data name="statusColumn" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="ttForce60fps" xml:space="preserve">
+    <value>Штиклирајте го ова поле ако сакате да се
+осигурате дека вашето видео ќе се симне
+во 60p. (доколку е достапно)</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Непознато</value>
+  </data>
+  <data name="video" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+  <data name="videoColumn" xml:space="preserve">
+    <value>Видео</value>
+  </data>
+</root>
