@@ -1,3 +1,4 @@
+# ВАЖНО: За да функционира правилно програмата, потребно е [ова](https://yt-dl.org/downloads/2020.06.16.1/youtube-dl) и ffmpeg.exe од [овде](https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20200628-4cfcfb3-win64-static.zip) да се стават во истиот фолдер каде што ќе биде искомпајлирана програмата!
 ![](http://gp.mk/ytdEng.jpg)
 #### [Македонски](#english)
 YouTube Downloader is a GUI application which allows downloading YouTube videos in various formats, from **MP3 audio-only** to the highest video quality that YouTube provides **(8K 60fps)**. It does so by using the [youtube-dl](https://youtube-dl.org/) API, as well as [ffmpeg](https://ffmpeg.org/) for conversion to MP3.
